@@ -217,7 +217,7 @@
 
  .home-sci {
      position: absolute;
-     bottom: 4rem;
+     bottom: 2rem;
      width: 170px;
      display: flex;
      justify-content: space-between;
@@ -864,6 +864,11 @@
  }
 
  @media (max-width: 462px) {
+
+     html {
+         font-size: 45%;
+     }
+
      .home-content h1 {
          font-size: 5.2rem;
      }
@@ -887,6 +892,10 @@
  }
 
  @media (max-width: 371px) {
+     html {
+         font-size: 42%;
+     }
+
      .home {
          justify-content: center;
      }
