@@ -715,7 +715,7 @@
  #menu-icon .animate,
  .home.show-animate .animate {
      animation: showRight 1s ease forwards;
-     animation-delay: calc(.2s * var(--i));
+     animation-delay: calc(.15s * var(--i));
  }
 
  .animate.scroll {
